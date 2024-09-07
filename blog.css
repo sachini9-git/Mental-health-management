@@ -1,0 +1,139 @@
+/* Add these styles for header */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    --bg-color: #495e57;
+    --second-bg-color: #45474b;
+    --text-color: #f5f7f8;
+    --main-color: #f4ce14;
+  }
+  h1 {
+    font-size: 0.9rem;
+    color: #757373;
+  }
+  
+  h6 {
+    font-size: 1.1rem;
+    color: rgb(24, 24, 49);
+  }
+  
+  /*Navigation*/
+  img {
+    width: 100%;
+    height: 300px;
+  }
+  nav {
+    background-color: var(--second-bg-color);
+    color: var(--text-color);
+    padding: 20px 30px;
+  }
+  
+  nav a {
+    font-size: 20px;
+    color: var(--text-color);
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  nav a:hover {
+    color: var(--main-color);
+  }
+  .btn {
+    display: inline-block;
+    padding: 5px 15px;
+    background: var(--main-color);
+    border-radius: 10px;
+    font-size: 1rem;
+    color: var(--second-bg-color);
+    font-weight: 600;
+    transition: 0.5s ease;
+  }
+  body {
+    font-family: "Popins", sans-serif;
+  }
+
+  #blog {
+    background-color: var(--bg-color);
+    padding: 50px 0;
+    align-items: center;
+  }
+  
+  .photo-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .photo-container img {
+    
+    padding: 20px;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* .photo-container:hover img {
+    transform: scale(1.1);
+  }
+   */
+  .link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+    
+  }
+  
+  .photo-container:hover .link {
+    display: block;
+  }
+  
+  .link a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+  }
+  
+   footer {
+    background-color: var(--second-bg-color);
+  }
+  
+  .footerContainer {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .socialIcons a {
+    text-decoration: none;
+    padding: 25px;
+    background-color: var(--text-color);
+    margin: 10px;
+    border-radius: 50%;
+  }
+  
+  .socialIcons a i {
+    font-size: 2rem;
+    color: var(--second-bg-color);
+    opacity: 0.9;
+  }
+  .socialIcons a:hover {
+    background-color: var(--main-color);
+    box-shadow: 0 0 1rem var(--main-color);
+  }

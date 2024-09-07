@@ -1,0 +1,51 @@
+.form-section img{
+    padding-top: 20px;
+    height: 350px;
+}
+
+.register {
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.form-table th,
+.form-table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.form-table label {
+    font-weight: bold;
+    color:var(--text-color);
+}
+
+.form-table input[type="radio"]{
+    color: var(--text-color);
+}
+
+.form-table input[type="text"],
+.form-table input[type="number"],
+.form-table input[type="email"],
+.form-table input[type="password"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: transparent;
+    color: var(--text-color);
+    height: 40px;
+    
+}
+body{
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
